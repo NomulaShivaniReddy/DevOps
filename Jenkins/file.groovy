@@ -3,7 +3,7 @@ agent any
 stages{
 stage('Build'){
 steps{
-sh 'echo " This is a build stage"
+sh 'echo "This is a build stage"'
 }
 }
 stage('Test'){
